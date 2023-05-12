@@ -1,0 +1,14 @@
+html {
+    /* background-color: white; */
+    font-size: 14px;
+    height: 60%;
+    
+}
+
+body{
+    background-image: url("/img.jpg");
+}
+
+h1 {
+    color:red;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="index.js"></script>
+    <title>Recipe Generator</title>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <form action="/" method="post">
+        <h2><strong>Type Name:</strong></h2>
+        <input type ="text" name ="name" placeholder="urmom">
+        <h2><strong>List Ingredients:</strong></h2>
+        <input type="text" name="ingredients" placeholder="flour,eggsazzzzzz,sugar,cock"></input>
+        <br>
+        <br>
+        <input type="submit" value="Submit Ingredients">
+        <br>
+    </form>
+    <hr>
+    <form action="/clear" method="post">
+        <input type="submit" value="Clear Database"/>
+        <!-- <input type="button" value="Clear Database" onclick="clear()"> -->
+    </form>
+    <!-- <a href="/clearDB">Clear Database</a> -->
+    <a href="/">Home</a>
+    <!-- <a href="/">Search for Recipes</a> -->
+    <!-- <a href="/"></a> -->
+</body>
+</html>
