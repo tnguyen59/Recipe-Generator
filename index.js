@@ -143,14 +143,14 @@ async function postTwo() {
             .collection(databaseAndCollection.collection)
             .find({});
         result = await cursor.toArray();
-        stuff = result[0];
+        stuff = result[result.length - 1];
     } catch (e) {
         console.error(e);
     } finally {
         await client.close();
     }
 
-    stuff = result[0];
+    stuff = result[result.length - 1];
 }
 
 app.post("/clear", async (request, response) => {

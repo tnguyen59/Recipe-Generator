@@ -1,7 +1,7 @@
 # CMSC335 FINAL PROJECT
 # Team Members
-### Thien-An Nguyen 117190182
 ### Ben Siripanich 116072984
+### Thien-An Nguyen 117190182
 ### Yash Joon 117258301
 
 #### API Used
