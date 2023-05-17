@@ -12,19 +12,21 @@
     <h1>Welcome!</h1>
     <form action="/" method="post">
         <h2><strong>Type Name:</strong></h2>
-        <input type ="text" name ="name" placeholder="urmom">
+        <input id = lol1 type ="text" name ="name" placeholder="name">
         <h2><strong>List Ingredients:</strong></h2>
-        <input type="text" name="ingredients" placeholder="flour,eggsazzzzzz,sugar,cock"></input>
+        <input id = lol2 type="text" name="ingredients" placeholder="flour,eggs,sugar"></input>
         <br>
         <br>
-        <input type="submit" value="Submit Ingredients">
+        <input id="sub" type="submit" class="submit" value="Submit Ingredients">
         <br>
     </form>
-    <hr>
+    <!-- <hr> -->
+    
     <form action="/clear" method="post">
-        <input type="submit" value="Clear Database"/>
+        <input type="submit" id="clear" value="Clear Database"/>
         <!-- <input type="button" value="Clear Database" onclick="clear()"> -->
     </form>
+    <br>
     <!-- <a href="/clearDB">Clear Database</a> -->
     <a href="/">Home</a>
     <!-- <a href="/">Search for Recipes</a> -->

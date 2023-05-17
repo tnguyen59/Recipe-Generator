@@ -8,6 +8,11 @@
 https://rapidapi.com/spoonacular/api/recipe-food-nutrition/
 
 #### Description
-This project 
+This website takes in a list of ingredients inputted by the user and displays different
+recipes that can be made using the ingredients. It also displays a picture of what the recipe will look like
+and the number of ingredients missing by the user. 
 
-https://www.eatingwell.com/thmb/YxkWBfh2AvNYrDKoHukRdmRvD5U=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/article_291139_the-top-10-healthiest-foods-for-kids_-02-4b745e57928c4786a61b47d8ba920058.jpg
+#### Image Used
+https://food.unl.edu/newsletters/images/basic-ingredients-for-baking.png
+
+#### DEMO: 

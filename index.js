@@ -125,7 +125,7 @@ function lineRecipe(listObj) {
     listObj.data.forEach(recipe => {
         let temp ="";
         recipe.missedIngredients.forEach(ing => {temp += ing});
-        str += `<h2>${recipe.title}</h2><img src="${recipe.image}"><br><br>missing ingredients: ${recipe.missedIngredientCount}<br><hr>`
+        str += `<h2>${recipe.title}</h2><img src="${recipe.image}"><br><br>Missing ingredients: ${recipe.missedIngredientCount}<br><hr>`
     });
     return str;
 }

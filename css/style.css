@@ -2,13 +2,76 @@ html {
     /* background-color: white; */
     font-size: 14px;
     height: 60%;
-    
+    background-image: url("basic-ingredients.png");
+    background-size: 100%;
 }
 
 body{
-    background-image: url("/img.jpg");
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
 }
 
 h1 {
-    color:red;
+    color:white;
+    font-size: 100px;
+    text-shadow: silver .125em .125em .125em;
 }
+
+h2 {
+    color: bisque;
+    font-size: 40px;
+}
+
+a {
+    font-size: 20px;
+    font-weight: bold;
+    color:bisque;
+}
+
+#lol1,#lol2 {
+    font-size: 2rem;
+    width: 30rem;
+}
+
+#sub {
+    /* color: white; */
+    /* size: 50px 200px; */
+    height: 50px;
+    width: 200px;
+    color: black;
+    transition-duration: 0.4s;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: .5rem;
+}
+
+#sub:hover {
+    background-color:grey;
+    color: bisque;
+    /* color:bisque; */
+}
+
+#clear {
+    margin-top: 5rem;
+    height: 40px;
+    width: 125px;
+    color: black;
+    transition-duration: 0.4s;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: .5rem;
+}
+
+#clear:hover {
+    background-color:grey;
+    color: bisque;
+}
+
+img{
+    border: 5px solid black;
+}
+
+
+
